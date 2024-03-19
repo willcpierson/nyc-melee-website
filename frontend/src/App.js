@@ -1,6 +1,9 @@
+import NavBar from "./components/NavBar/index.js";
+import FrontPage from "./components/FrontPage/index.js";
+
 function App() {
   return (
-    <h1>Hello from App</h1>
+    <FrontPage />
   );
 }
 

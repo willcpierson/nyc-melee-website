@@ -1,0 +1,19 @@
+#navBody {
+     margin-top: 20px; /* may need to change based on monitor sizes */
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: cyan;
+    height: 100px; /* will change based on nyc melee logo size.
+                 Expecting logo to be bigger than navbar height though */
+    width: 90%; 
+}
+
+#navLogo {
+    background-color: burlywood;
+}
+
+.helloNav {
+    color: red;
+}
