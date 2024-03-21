@@ -1,4 +1,6 @@
+import styles from "./FrontPage.module.css";
 import NavBar from "../NavBar";
+import Gallery from "../Gallery";
 
 
 const FrontPage = () => {
@@ -7,7 +9,8 @@ const FrontPage = () => {
     return (
         <div> 
             <NavBar />
-            <h1>Hello from FrontPage!</h1> 
+            <h1>Hello from FrontPage!</h1>
+            <Gallery /> 
         </div>
     );
 };
