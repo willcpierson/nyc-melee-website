@@ -1,7 +1,7 @@
 import styles from "./Gallery.module.css";
-import friendsImage from "../../pictures/Friends.jpg"
-import jojoAkloImage from "../../pictures/JojoAklo.jpg"
-import stevenCrueltyImage from "../../pictures/StevenCruelty.jpg"
+import friendsImage from "../../pictures/Friends.jpg";
+import jojoAkloImage from "../../pictures/JojoAklo.jpg";
+import stevenCrueltyImage from "../../pictures/StevenCruelty.jpg";
 
 
 const Gallery = () => { 

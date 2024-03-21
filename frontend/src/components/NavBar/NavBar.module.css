@@ -12,7 +12,8 @@
 }
 
 #navLogo {
-    background-color: burlywood;
+    width: 80px;
+    height: 80px;
 }
 
 .navLinks {
