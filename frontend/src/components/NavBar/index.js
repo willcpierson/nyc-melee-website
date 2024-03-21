@@ -5,11 +5,13 @@ const NavBar = () => {
 
     return (
         <div id={styles.navBody}>
-            <h1 className={styles.helloNav}>Hello again from NavBar!</h1>
+            <h2 className={styles.navLinks}>Events</h2>
+            <h2 className={styles.navLinks}>Tournament Data</h2>
             <div id={styles.navLogo}>
                 <img src="" alt="" />
             </div>
-            <h1 className={styles.helloNav}>Hello from NavBar!</h1>
+            <h2 className={styles.navLinks}>Staff</h2>
+            <h2 className={styles.navLinks}>Contact Us</h2>
         </div>
     );
 };
