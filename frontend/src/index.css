@@ -152,4 +152,11 @@ button {
 
 body {
     background-color: rgb(25, 23, 23);
+    font-family: "Figtree"
 }
+
+/* fonts */
+@import url("https://fonts.googleapis.com/css?family=Figtree");
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@800");
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400");
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@600");
