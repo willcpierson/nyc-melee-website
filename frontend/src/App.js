@@ -3,7 +3,10 @@ import FrontPage from "./components/FrontPage/index.js";
 
 function App() {
   return (
-    <FrontPage />
+    <>
+      <NavBar />
+      <FrontPage />
+    </>
   );
 }
 

@@ -7,9 +7,9 @@ const FrontPage = () => {
 
 
     return (
-        <div> 
-            <NavBar />
-            <h1>Hello from FrontPage!</h1>
+        <div id={styles.frontPageBody}> 
+            <h1 id={styles.intro}>The home for all things NYC Melee related!</h1>
+            <h2 id={styles.upcomingEventsText}>Check out our upcoming events!</h2>
             <Gallery /> 
         </div>
     );

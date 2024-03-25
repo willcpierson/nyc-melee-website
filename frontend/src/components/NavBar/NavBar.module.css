@@ -9,20 +9,29 @@
     height: 100px; /* will change based on nyc melee logo size.
                  Expecting logo to be bigger than navbar height though */
     width: 90%; 
+    border-radius: 5px;
 }
 
 #navLogo {
     width: 80px;
     height: 80px;
+    cursor: pointer;
 }
 
 .navLinks {
     color: black;
+    font-weight: bold;
+}
+
+.navLinks:hover {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .sideLinks {
     width: 50%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 };

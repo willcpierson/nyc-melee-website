@@ -1,0 +1,18 @@
+#frontPageBody {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 1%;
+}
+
+#intro {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    margin-top: 3%;
+}
+
+#upcomingEventsText {
+    font-size: x-large;
+    color: white;
+}

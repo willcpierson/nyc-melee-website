@@ -1,23 +1,23 @@
 #galleryBody {
-    width: 95%;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    margin-top: 1%;
+    width: 100%;
 }
 
 #friendsImage {
+    border-radius: 5px;
     width: 49.5%;
     margin-right: 0.5%;
 
 }
 
 #jojoAkloImage {
+    border-radius: 5px;
     width: 49.5%;
     margin-left: 0.5%;
 
 }
 
 #stevenCrueltyImage {
+    border-radius: 5px;
     width: 100%;
     margin-top: 1%;
 }
