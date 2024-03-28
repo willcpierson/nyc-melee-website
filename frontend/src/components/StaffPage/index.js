@@ -4,9 +4,12 @@ import styles from "./StaffPage.module.css"
 const StaffPage = () => {
 
 
+
     return (
         <>
-            <h1>Hello from Staff Page</h1>
+            <h2>NYC Melee Staff</h2>
+
+            <h2>NYC Community Talent</h2>
         </>
     );
 };
