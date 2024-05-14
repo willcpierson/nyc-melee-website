@@ -1,0 +1,4 @@
+#staffList {
+    display: flex;
+    flex-wrap: wrap;
+}
