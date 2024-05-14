@@ -11,12 +11,6 @@ import { useRef } from "react";
 export default function SimpleSlider() {
 
     let sliderRef = useRef(null);
-    const play = () => {
-      sliderRef.slickPlay();
-    };
-    const pause = () => {
-      sliderRef.slickPause();
-    };
   
     const settings = {
       dots: true,
