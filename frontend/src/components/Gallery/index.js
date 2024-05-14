@@ -2,14 +2,12 @@ import styles from "./Gallery.module.css";
 import friendsImage from "../../pictures/Friends.jpg";
 import jojoAkloImage from "../../pictures/JojoAklo.jpg";
 import stevenCrueltyImage from "../../pictures/StevenCruelty.jpg";
-
+import SimpleSlider from "../SimpleSlider";
 
 const Gallery = () => { 
     return (
         <div id={styles.galleryBody}>
-            <img id={styles.friendsImage} src={friendsImage} alt="" />
-            <img id={styles.jojoAkloImage} src={jojoAkloImage} alt="" />
-            <img id={styles.stevenCrueltyImage} src={stevenCrueltyImage} alt="" />
+            <SimpleSlider />
         </div>
     );
 };
