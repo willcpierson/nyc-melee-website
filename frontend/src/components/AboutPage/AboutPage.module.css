@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     color: white;
-    border: 3px solid rgb(185, 179, 179);
+    border: 3px solid rgb(20, 172, 238);
     border-radius: 5px;
     height: 100%;
     width: 100%;
@@ -24,12 +24,12 @@
 }
 
 .aboutPics {
-    border-left: 3px solid rgb(185, 179, 179);
+    border-left: 3px solid rgb(20, 172, 238);
     height: 100%;
     width: 45%;
 }
 
 #middlePic {
-    border-right: 3px solid rgb(185, 179, 179);
+    border-right: 3px solid rgb(20, 172, 238);
     border-left: none;
 }

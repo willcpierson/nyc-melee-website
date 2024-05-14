@@ -5,7 +5,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: #00b4d8;
+    background-color: rgb(20, 172, 238);
+    /* border: 3px solid rgb(142, 5, 142); */
     height: 100px; /* will change based on nyc melee logo size.
                  Expecting logo to be bigger than navbar height though */
     width: 90%; 
