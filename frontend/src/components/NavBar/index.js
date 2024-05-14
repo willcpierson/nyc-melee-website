@@ -1,5 +1,5 @@
 import styles from './NavBar.module.css';
-import srgLogo from "../../pictures/srgLogo.png";
+import nycmelee from "../../pictures/nycmelee.png";
 
 const NavBar = () => {
 
@@ -7,7 +7,7 @@ const NavBar = () => {
     return (
         <div id={styles.navBody}>
             <div id={styles.navLogo}>
-                <img src={srgLogo} id={styles.navLogo} alt="NYC Melee Logo" />
+                <img src={nycmelee} id={styles.navLogo} alt="NYC Melee Logo" />
             </div>
             <div className={styles.sideLinks}>
                 <h2 className={styles.navLinks}>Events</h2>

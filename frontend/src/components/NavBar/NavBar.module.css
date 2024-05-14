@@ -16,6 +16,8 @@
     width: 80px;
     height: 80px;
     cursor: pointer;
+    background-color: black;
+    border-radius: 50px;
 }
 
 .navLinks {
