@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 
 const NavBar = () => {
 
-
     return (
         <div id={styles.navBody}>
             <div id={styles.navLogo}>
@@ -16,9 +15,6 @@ const NavBar = () => {
                 <Link classname={styles.links} to="/events">
                     <h2 className={styles.navLinks}>Events</h2>
                 </Link>
-                {/* <Link classname={styles.links} to="/tournamentdata">
-                    <h2 className={styles.navLinks}>Tournament Data</h2>
-                </Link> */}
                 <Link classname={styles.links} to="/staff">
                     <h2 className={styles.navLinks}>Staff</h2>
                 </Link>
