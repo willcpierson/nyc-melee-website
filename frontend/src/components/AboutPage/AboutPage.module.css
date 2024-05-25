@@ -33,3 +33,21 @@
     border-right: 3px solid rgb(20, 172, 238);
     border-left: none;
 }
+
+#sponsorBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 30px;
+}
+
+#sponsorImages {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}

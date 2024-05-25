@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import friendsImage from "../../pictures/Friends.jpg";
+import NightclubThumbnail from "../../pictures/NightclubThumbnail.png";
 import jojoAkloImage from "../../pictures/JojoAklo.jpg";
 import stevenCrueltyImage from "../../pictures/StevenCruelty.jpg";
 import styles from "./SimpleSlider.module.css";
@@ -15,47 +15,30 @@ export default function SimpleSlider() {
     const settings = {
       dots: true,
       infinite: true,
-      slidesToShow: 2,
+      slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 5000
     };
     return (
-      <div className="slider-container">
+      <div className={styles.sliderContainer}>
         <Slider ref={slider => (sliderRef = slider)} {...settings}>
             <div>
-                <img id={styles.friendsImage} src={friendsImage} alt="" />
+                <a target="_blank" href="https://start.gg/nightclub">
+                  <img id={styles.friendsImage} src={NightclubThumbnail} alt="" />
+                </a>
             </div>
             <div>
+              <a href="">
                 <img id={styles.jojoAkloImage} src={jojoAkloImage} alt="" />
+              </a>
             </div>
             <div>
+              <a href="">
                 <img id={styles.stevenCrueltyImage} src={stevenCrueltyImage} alt="" />
+              </a>
             </div>
         </Slider>
       </div>
     );
   }
-
-
-//   var settings = {
-//     dots: true,
-//     infinite: true,
-//     speed: 500,
-//     slidesToShow: 1,
-//     slidesToScroll: 1,
-//   };
-//   return (
-//     <Slider {...settings}>
-    //   <div>
-    //     <img id={styles.friendsImage} src={friendsImage} alt="" />
-    //   </div>
-    //   <div>
-    //   <img id={styles.jojoAkloImage} src={jojoAkloImage} alt="" />
-    //   </div>
-    //   <div>
-    //     <img id={styles.stevenCrueltyImage} src={stevenCrueltyImage} alt="" />
-    //   </div>
-//     </Slider>
-//   );
-// }

@@ -1,17 +1,27 @@
 #friendsImage {
+    height: 500px;
     border-radius: 5px;
     width: 100%;
     margin-top: 1%;
 }
 
 #jojoAkloImage {
+    height: 500px;
     border-radius: 5px;
     width: 100%;
     margin-top: 1%;
+    object-fit: scale-down;
 }
 
 #stevenCrueltyImage {
+    height: 500px;
     border-radius: 5px;
     width: 100%;
     margin-top: 1%;
+    object-fit: scale-down;
+}
+
+.sliderContainer {
+    width: 75%;
+    margin-left: 12.5%;
 }

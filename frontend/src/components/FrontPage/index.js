@@ -11,7 +11,7 @@ const FrontPage = () => {
             {/* <h1 id={styles.intro}>The home for all things NYC Melee related!</h1>
             <h2 id={styles.upcomingEventsText}>Check out our upcoming events!</h2> */}
             <Gallery /> 
-            <TournamentBox />
+            {/* <TournamentBox /> */}
         </div>
     );
 };

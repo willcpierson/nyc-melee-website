@@ -2,6 +2,7 @@ import styles from "./AboutPage.module.css";
 import SYGPatti from "../../pictures/aboutPagePics/SYGPatti.jpg";
 import NightclubStats from "../../pictures/aboutPagePics/NightclubStats.jpg";
 import SYGFinalComms from "../../pictures/aboutPagePics/SYGFinalComms.jpg";
+import RedbullLogo from "../../pictures/aboutPagePics/RedbullLogo.png";
 
 const AboutPage = () => {
 
@@ -34,6 +35,14 @@ const AboutPage = () => {
                 </p>
                 <img  className={styles.aboutPics} src={SYGFinalComms} alt="" />
             </section>
+            {/* <section id={styles.sponsorBox}>
+                <h2>Our Past Sponsors</h2>
+                <div id={styles.sponsorImages}>
+                    <img className={styles.logo} src="" alt=""/>
+                    <img className={styles.logo} src={RedbullLogo} alt=""/>
+                    <img className={styles.logo} src="" alt=""/>
+                </div>
+            </section> */}
         </div>
     );
 };
