@@ -38,9 +38,11 @@ const AboutPage = () => {
             {/* <section id={styles.sponsorBox}>
                 <h2>Our Past Sponsors</h2>
                 <div id={styles.sponsorImages}>
-                    <img className={styles.logo} src="" alt=""/>
-                    <img className={styles.logo} src={RedbullLogo} alt=""/>
-                    <img className={styles.logo} src="" alt=""/>
+                    <img className={styles.logo} src="" alt="Beastcoast logo"/>
+                    <img className={styles.logo} src={RedbullLogo} alt="Redbull logo"/>
+                    <img className={styles.logo} src="" alt="Luminosity logo"/>
+                    <img className={styles.logo} src="" alt="BrookLAN logo"/>
+                    <img className={styles.logo} src="" alt="OSNYC logo"/>
                 </div>
             </section> */}
         </div>
