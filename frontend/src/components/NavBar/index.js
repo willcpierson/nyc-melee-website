@@ -16,7 +16,7 @@ const NavBar = () => {
                     <h2 className={styles.navLinks}>Events</h2>
                 </Link>
                 <Link classname={styles.links} to="/staff">
-                    <h2 className={styles.navLinks}>Staff | HIDE FROM PUBLIC |</h2>
+                    <h2 className={styles.navLinks}>Staff</h2>
                 </Link>
                 <Link classname={styles.links} to="/about">
                     <h2 className={styles.navLinks}>About Us</h2>
