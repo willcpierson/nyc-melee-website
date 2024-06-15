@@ -22,6 +22,14 @@ const StaffMember = () => {
             </div>
             <img id={styles.portrait} src={willPortrait} alt="" />
             </div>
+
+            <div id={styles.staffBox}>
+            <div id={styles.textBox}>
+                <h2 id={styles.nameTag}>Gabe Karon</h2>
+                <h3 id={styles.positionTitle}>Board Member, Head of Finance</h3>
+            </div>
+            <img id={styles.portrait} src={willPortrait} alt="" />
+            </div>
         </>
     );
 };
