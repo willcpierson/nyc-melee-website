@@ -15,8 +15,8 @@ const NavBar = () => {
                 <Link classname={styles.links} to="/events">
                     <h2 className={styles.navLinks}>Events</h2>
                 </Link>
-                <Link classname={styles.links} to="/staff">
-                    <h2 className={styles.navLinks}>Staff N/A</h2>
+                <Link classname={styles.links} to="">
+                    <h2 className={styles.navLinks}>Staff </h2>
                 </Link>
                 <Link classname={styles.links} to="/about">
                     <h2 className={styles.navLinks}>About Us</h2>
@@ -25,5 +25,7 @@ const NavBar = () => {
         </div>
     );
 };
+
+// stafe page currently disabled, change to attribute to "staff" when ready
 
 export default NavBar;
