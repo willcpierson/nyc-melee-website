@@ -21,17 +21,14 @@ const AboutPage = () => {
             <section className={styles.aboutDescription}>
                 <img id={styles.middlePic} className={styles.aboutPics} src={NightclubStats} alt="" />
                 <p className={styles.aboutParagraph}> With our weekly events averaging 86 entrants in 2023, we have solidified our flaship event, "The Nightclub",
-                as the biggest Super Smash Bros. Melee local in the world. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aut iste commodi animi quasi
-                 perferendis in hic fugit ipsam velit excepturi perspiciatis nulla praesentium, molestias accusantium ut sequi consequuntur corrupti?
+                as the biggest Super Smash Bros. Melee local in the world. Lorem ipfugit ipsam velit excepturi perspiciatis nulla praesentium, molestias accusantium ut sequi consequuntur corrupti?
                 </p>
             </section>
             <section className={styles.aboutDescription}>
                 <p className={styles.aboutParagraph}> We've worked with numerous brands and sponsors in the past, including names such as
                 Redbull, Beastcoast, The Brooklyn Nets, and more. We're always looking to collaborate with more teams and communities in the future,
                 to not only run great events but newly define what it means to run an unforgettable event.
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Aspernatur fugit libero deserunt accusantium maxime neque facilis repellat reprehenderit. 
-                    Tempore repellendus dolores deserunt hic enim soluta corporis, saepe inventore aliquam sint!
+                  Tempore repellendus dolores deserunt hic enim soluta corporis, saepe inventore aliquam sint!
                 </p>
                 <img  className={styles.aboutPics} src={SYGFinalComms} alt="" />
             </section>
